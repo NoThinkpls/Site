@@ -1,0 +1,306 @@
+@import url('style/Font/stylesheet.css');
+
+:root {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+position: relative;
+--cor-destaque: #000; /* Preto */
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(/images/icons8-cardápio-35\ \(1\).png
+);
+}
+}
+
+.btn-primary {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}  
+
+/* Header da Página */
+    header .header {
+    width: 100%;
+    height: 68px;
+    position: relative;
+    }
+
+    header .barra {
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: black;
+    }
+
+    header .portogran {
+    left: 20px;
+    top: 1rem;
+    position: absolute;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    font-family: "C6 Sans Display", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    }
+
+    header .baixeoapp {
+    width: 116px;
+    height: 28px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: "C6 Sans Display", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    line-height: 28px;
+    text-align:center;
+    }
+
+    header .vector {
+    right: 20px;
+    top: 1rem;
+    position: absolute;
+    filter: brightness(1000%);
+    }
+
+body .controle1 {
+left: 20px;
+text-align: left;
+font: 300 3.5vmax "C6 Sans Display", sans-serif;
+position: relative;
+height: 12.1875rem;
+display: flex;
+align-items: flex-end;
+justify-content: flex-start;
+color: white;
+max-width: 60%;
+}
+
+header .gradiente {
+background: linear-gradient(90.07deg, rgba(255, 219, 91, 1) 0%, rgba(255, 144, 14, 1) 100%);
+-webkit-background-clip: text; /* Safari, Chrome, Opera */
+-webkit-text-fill-color: transparent; /* Safari, Chrome, Opera */
+background-clip: text; /* Standard syntax */
+}
+
+body .controle2 {
+left: 20px;
+text-align: left;
+font: 300 3.5vmax "C6 Sans Display", sans-serif;
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: flex-start;
+max-width: 60%;
+background: linear-gradient(90.07deg, rgba(255, 219, 91, 1) 0%, rgba(255, 144, 14, 1) 100%);
+    -webkit-background-clip: text; /* Safari, Chrome, Opera */
+    -webkit-text-fill-color: transparent; /* Safari, Chrome, Opera */
+    background-clip: text; /* Standard syntax */
+}
+
+body .baixegrande {
+background: #ffffff;
+border-radius: 45px;
+height: 42px;
+display: flex;
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-family: "C6 Sans Display", sans-serif;
+font-weight: 500;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 60%;
+position: relative;
+margin: 0 auto;
+text-decoration: none;
+cursor: pointer;
+}
+
+body .baixegrande:hover {
+    background: linear-gradient(90.07deg, rgba(255, 219, 91, 1) 0%, rgba(255, 144, 14, 1) 100%);
+    border: 1px solid #fff;
+    border-radius: 45px;
+    height: 42px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: "C6 Sans Display", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+body .funcionalidadegrande {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    height: 42px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    border-width: line-width 2px ;
+    font-size: 16px;
+    font-family: "C6 Sans Display", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    text-decoration: none;
+    }
+
+body .funcionalidadegrande:hover {
+    background: linear-gradient(90.07deg, rgba(255, 219, 91, 1) 0%, rgba(255, 144, 14, 1) 100%);
+    border: 1px solid #fff;
+    border-radius: 45px;
+    height: 42px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    border-width: line-width 2px ;
+    font-size: 16px;
+    font-family: "C6 Sans Display", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    text-decoration: none;
+    }
+
+    /* <!-- /* .carousel {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.3s ease;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%; /* Defina a largura do item do carrossel aqui */
+        /* padding: 10px; */
+        /* Outros estilos desejados para cada item do carrossel */
+    /* } -->  */
+    
+    body .maisde{
+    color: #FFF;
+    text-align: center;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: "C6 Sans Display", sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    }
+
+    body .numerodeusuarios {
+    background: linear-gradient(90.07deg, rgba(255, 219, 91, 1) 0%, rgba(255, 144, 14, 1) 100%);
+        -webkit-background-clip: text; /* Safari, Chrome, Opera */
+    -webkit-text-fill-color: transparent; /* Safari, Chrome, Opera */
+    background-clip: text; /* Standard syntax */
+    text-align: center;
+    line-height: normal;
+    font-family: "C6 Sans Display", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 300;
+        }
+    
+    body .numerodeusuariostexto {
+        color: #FFF;
+        text-align: center;
+        line-height: normal;
+        font-family: "C6 Sans Display", sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        max-width: 800px;
+        margin: 0 auto
+    }
+    
+    body .telefone {
+        text-align: center;
+        line-height: normal;
+        line-height: normal;
+        max-width: 80%;
+        margin: 0 auto
+    }
+
+    footer .barrainferior {
+        width: 100%;
+        height: 130px;
+        left: 0px;
+        bottom: 0px;
+        position: absolute;
+        background: black;
+    }
+
+    footer .contato {
+        left: 20px;
+        bottom: 5rem;
+        position: absolute;
+        text-align: right;
+        color: white;
+        font-size: 3.7vmin;
+        font-family: "C6 Sans Display", sans-serif;
+        font-weight: 500;
+        word-wrap: break-word;  
+    }
+
+    footer .portograninferior {
+        right: 20px;
+        bottom: 5rem;
+        position: absolute;
+        text-align: right;
+        color: white;
+        font-size: 4vmin;
+        font-family: "C6 Sans Display", sans-serif;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+
+    footer .email {
+        left: 20px;
+        bottom: 2.7rem;
+        position: absolute;
+        text-align: right;
+        color: white;
+        font-size: 3vmin;
+        font-family: "C6 Sans Display", sans-serif;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+
+    footer .emailcompleto {
+        left: 20px;
+        bottom: 1.1rem;
+        position: absolute;
+        text-align: right;
+        color: white;
+        font-size: 3vmin;
+        font-family: "C6 Sans Display", sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+    }
